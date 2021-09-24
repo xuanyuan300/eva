@@ -1,0 +1,32 @@
+{
+    "depends": ["Cro::HTTP"],
+    "provides": {
+        "Factory::Call": "lib/Factory/Call.pm6",
+        "Factory::Grammar::Actions": "lib/Factory/Grammar/Actions.pm6",
+        "Factory::Factory": "lib/Factory/Factory.pm6",
+        "Factory::Openstack::Openstack": "lib/Factory/Openstack/Openstack.pm6",
+        "Factory::Openstack::Servergroup": "lib/Factory/Openstack/Servergroup.pm6",
+        "Factory::Aliyun::Aliyun": "lib/Factory/Aliyun/Aliyun.pm6",
+        "Factory::Aliyun::SlbListener": "lib/Factory/Aliyun/SlbListener.pm6",
+        "Factory::Util::Http": "lib/Factory/Util/Http.pm6",
+        "Factory::Aliyun::PvZoneRecord": "lib/Factory/Aliyun/PvZoneRecord.pm6",
+        "Template::Aliyun::VM::VM": "lib/Template/Aliyun/VM/VM.pm6",
+        "Factory::Aliyun::Disk": "lib/Factory/Aliyun/Disk.pm6",
+        "Factory::Aliyun::SlbAcl": "lib/Factory/Aliyun/SlbAcl.pm6",
+        "Template::Openstack::VM::VM": "lib/Template/Openstack/VM/VM.pm6",
+        "Factory::Slang": "lib/Factory/Slang.pm6",
+        "Factory::Aliyun::DiskAttach": "lib/Factory/Aliyun/DiskAttach.pm6",
+        "Factory::Aliyun::VSwitch": "lib/Factory/Aliyun/VSwitch.pm6",
+        "Factory::Aliyun::Slb": "lib/Factory/Aliyun/Slb.pm6",
+        "Factory::Aliyun::VPC": "lib/Factory/Aliyun/VPC.pm6",
+        "Factory::Aliyun::SlbAttach": "lib/Factory/Aliyun/SlbAttach.pm6",
+        "Factory::Aliyun::SlbServergroup": "lib/Factory/Aliyun/SlbServergroup.pm6",
+        "Factory::Grammar::Grammar": "lib/Factory/Grammar/Grammar.pm6",
+        "Factory::Aliyun::SecgroupRule": "lib/Factory/Aliyun/SecgroupRule.pm6",
+        "Factory::Aliyun::SlbRule": "lib/Factory/Aliyun/SlbRule.pm6",
+        "Factory::Aliyun::Secgroup": "lib/Factory/Aliyun/Secgroup.pm6"
+    },
+    "name": "Factory::Slang",
+    "perl": "6.*",
+    "version": "0.1"
+}
